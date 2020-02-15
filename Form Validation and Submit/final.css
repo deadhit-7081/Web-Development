@@ -1,0 +1,36 @@
+H1
+{
+	background-color:grey;
+	color:white;
+	text-align:center;
+}
+body
+{
+	background-color:rgb(200,150,100);
+	background-image: url("backgroud1.jpg");
+}
+#name
+{
+	background-color:white;
+	font-size:100%;
+}
+#gender
+{
+	background-color:white;
+	font-size:100%;
+}
+#skills
+{
+	background-color:white;
+	font-size:100%;
+}
+form
+{
+	margin-left:30px;
+	background-color:orange;
+	width:20%;
+}
+#button
+{
+	background-color:rgb(120,100,80);
+}

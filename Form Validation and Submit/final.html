@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<H1>Bio Data</H1>
+<head>
+<meta  charset="utf-8">
+<link rel="stylesheet" type="text/css" href="final.css">
+<link rel="" type="text/css" href=".css">
+<script type="text/javascript" src="final.js"></script><!--Connect to external js file-->
+</head>
+<body>
+<img style="float:right;"src="xyz.jpg"/>
+<form>
+Name:<br>
+<input id="name" type="text" onblur="validatename();" required><span id="nameprompt"></span><br><br>
+Age:<br>
+<input id="age" type="number" required><br><br>
+Birthday:<br>
+<input id="bday" type="date"><br><br>
+Gender:<br>
+<input id="gender" type="text" onblur="validategender();" placeholder="M or F"><span id="genderprompt"></span><br><br>
+Skills:<br>
+<input id="skills" type="checkbox" type="skills"><em>HTML</em><br>
+<input id="skills" type="checkbox" type="skills"><em>JS</em><br>
+<input id="skills" type="checkbox" type="skills"><em>CSS</em><br><br>
+Prefered carrier option:<br>
+<input id="carrier" type="radio"><em>Web Development</em><br>
+<input id="carrier" type="radio"><em>App Development</em><br>
+<input id="carrier" type="radio"><em>Cloud Computing</em><br>
+Your Favorite color:<br>
+<input id="fcolor" type="color"><br><br>
+Phone Number:<br>
+<input id="phone" name="phone" type="text" onblur="validatephonenumber();" placeholder="xxx-xxx-xxxx"><span id="phoneprompt"></span><br><br>
+<button id="button" type="button">Submit</button>
+</form>
+</body>
+</html>
