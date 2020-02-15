@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<H1>
+Please fill the form
+<meta  charset="utf-8">
+<link rel="stylesheet" type="text/css" href="week5.css">
+<script type="text/javascript" src="formvalidation.js"></script>
+</H1>
+<body>
+<form action="#">
+<div id="id1">
+<table border="0">
+<tr>
+<td class="lable_col">First Name:</td>
+<td class="input_col"><input id="firstname" name="firstname" type="text" onblur="validatefirstname();"></td>
+<td class="feedback"><span id="firstnameprompt">&nbsp;</span></td>
+</tr><br><br>
+<tr>
+<td class="lable_col">Last Name:</td>
+<td class="input_col"><input id="lastname" name="lastname" type="text" onblur="validatelastname();"></td>
+<td class="feedback"><span id="lastnameprompt">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="lable_col">Phone Number:</td>
+<td class="input_col"><input id="phone" name="phone" type="text" onblur="validatephonenumber();" placeholder="xxx-xxx-xxxx"></td>
+<td class="feedback"><span id="phoneprompt">xxx-xxx-xxxx</span></td>
+</tr><br>
+<td class="lable_col">Quantity:</td>
+<td class="input_col"><input id="quantity" name="quantity" type="number"></td>
+<td class="feedback"><span id="quantityprompt"></span></td>
+</tr>
+<td class="lable_col">Price:</td>
+<td class="input_col"><input id="price" name="price" type="text" value="50.0" readonly></td>
+</tr>
+<td class="Button" id="Button" colspan="3"><span class="buttonBG" onclick="calcorder();">Order Now</span></td>
+</table>
+<span id="orderconfirm">&nbsp;</span>
+</div>
+</form>
+</body>
+</html>
