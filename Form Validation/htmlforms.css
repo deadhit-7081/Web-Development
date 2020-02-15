@@ -1,0 +1,28 @@
+body
+{
+	background-color:rgb(200,150,150);
+	text-align:center;
+	padding:10%;
+}
+H1
+{
+	text-align:center;
+}
+input
+{
+	margin-left:100px;
+}
+form
+{
+	border:1px solid black;
+	margin-left:20px;
+	padding:10%;
+	font-size:150%;
+}
+#id1
+{
+	background-color:orange;
+	margin-left:200px;
+	text-align:bottom;
+	font-size:120%;
+}

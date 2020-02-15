@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<div style="background-color:red">
+	<H1><em><b>Please fill the form</b><em></H1>
+</div>
+<link rel="stylesheet" type="text/css" href="htmlforms.css">
+<body>
+<script>
+function tested()
+{
+	var a=document.getElementById("m1").value;
+	var r=/^[A-Za-z]{3}$/;
+	if(r.test(a))
+	{
+		document.getElementById("m2").innerHTML="Valid";
+	}
+	else
+	{
+		document.getElementById("m2").innerHTML="Invalid";
+	}
+}
+</script>
+<form>
+User name:<br>
+<input id="m1" type="text" name="username" onblur="tested();" required><span id="m2"></span><br>
+Password:<br>
+<input type="password" name="password" pattern="[A-Za-z]{3}" title="Invalid" required><br>
+<input type="radio" name="food" value="pizza "checked>pizza<br>
+<input type="radio" name="food" value="Burger ">Burger<br>
+<input type="checkbox" type="skills"><em>HTML</em><br>
+<input type="checkbox" type="skills"><em>JS</em><br>
+<input type="checkbox" type="skills"><em>CSS</em><br>
+Birthday:
+<input type="date" name="jai"><br>
+Select Your Favorite color:
+<input id="id2" type="color"><br>
+<input id="id1" type="submit" value="submit"><br>
+</form>
+</body>
+
+</html>
