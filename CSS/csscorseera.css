@@ -1,0 +1,37 @@
+body
+{
+	background-color:rgb(150,150,100);
+}
+table
+{
+	margin-left:500px;
+	border:1px solid black;
+	width:20%;
+}
+td
+{
+	/*background-color:yellow;*/
+	border:1px solid red;
+	text-align:center;
+	padding:12px;
+}
+tr:nth-child(even)
+{
+	background-color:red;
+}
+.cssassign
+{
+	color:red;
+	font-size:200%;
+}
+#id1
+{
+	text-align:center;
+	color:rgb(250,250,0);
+}
+#id5
+{
+	text-align:center;
+	border:1px solid red;
+	background-color:rgb(255,250,100);
+}
