@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H1 style="color:green;"><em>My First Alert and prompt</em></H1>
+<link rel="stylesheet" type="text/css" href="stylingcss.css">
+<p class="jaiClass"><em>This is <b>Css</b></em> </p>
+</head>
+<table>
+<tr>
+<td>Day 1</td><td>Maths</td>
+</tr>
+<tr>
+<td>Day 2</td><td>CSE</td>
+</tr>
+<tr>
+<td>Day 3</td><td>Python</td>
+</tr>
+<tr>
+<td>Day 4</td><td>Web</td>
+</tr>
+</table>
+<body onload="alert('Page is Loaded');">
+<script>
+
+function alert1()
+{
+	var a=document.getElementById("id1").value;
+	alert("Your Number is :"+a*5);
+}
+function prompt1()
+{
+	var p=prompt("Please enter Number","Jai");
+	if(p!="")
+	{
+		document.getElementById("id2").innerHTML="Your Name is "+p;
+	}
+	else
+	{
+		alert("No input");
+	}
+}
+function blured()
+{
+	var str=document.getElementById("id3").value;
+	if(str.length>0)
+	{
+		document.getElementById("m1").innerHTML="Valid";
+	}
+	else
+	{
+		alert("Input text");
+	}
+}
+</script>
+<input id="id1" type="number"/>
+<button onclick="alert1();">alert</button>
+<button onclick="prompt1();"> prompt</button>
+<p id="id2">Enter Name</p>
+<input id="id3" type="text" onblur="blured();"/><span id="m1"></span>
+<input id="id4" type="text"/><span id="m2"></span>
+<input id="id5" type="text"/><span id="m3></span>
+</body>
+</html>

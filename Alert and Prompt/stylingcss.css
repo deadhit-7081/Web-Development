@@ -1,0 +1,42 @@
+body
+{
+	background-color: rgb(150,150,100);
+}
+h1
+{
+	border:2px solid rgb(200,50,50);
+	color:red;
+	margin-left:500px;
+}
+p.jaiClass
+{
+	padding:100px;
+	text-align:center;
+}
+#id2
+{
+	text-align:left;
+	color:brown;
+}
+table
+{
+	margin-left:500px;
+	border:1px solid black;
+	width:20%;
+}
+td
+{
+	/*background-color:yellow;*/
+	border:1px solid red;
+	text-align:center;
+	padding:12px;
+}
+tr:nth-child(even)
+{
+	background-color:red;
+}
+.jaiClass
+{
+	color:red;
+	font-size:200%;
+}
